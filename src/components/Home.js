@@ -9,7 +9,7 @@ function Home() {
     let current = ref.current;
     function listner(e) {
       e.preventDefault();
-      console.log("hi");
+      // console.log("hi");
       // redirect("/download");
       navigate("/download");
       // return false;
